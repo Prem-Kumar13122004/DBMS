@@ -1,5 +1,5 @@
 # EXP NO 2: DATA DEFINITION LANGUGE COMMANDS 
-### DATE
+### DATE : 6.3.2024
 ## AIM:
 To create a student database and execute DDL queries using SQL.
 
@@ -22,7 +22,7 @@ To create a student database and execute DDL queries using SQL.
 
 ## Query:
 ### 1) Create a database studentdb
-
+create database studentdb
 ### SQL QUERY:
 
 ### OUTPUT:
@@ -30,36 +30,52 @@ To create a student database and execute DDL queries using SQL.
 ### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
 ### SQL QUERY: 
+CREATE TABLE student (
+    RegisterNumber INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Address VARCHAR(100),
+    PhoneNumber VARCHAR(15)
+);
 
+INSERT INTO student (RegisterNumber, Name, Age, Address, PhoneNumber)
+VALUES (101, 'Muzammil', 20, '123 Main St, Chennai', '9894499260'), (102, 'Prem', 20, '4 St, Salem', '9763457820');
 
 ### OUTPUT:
+![dbms 2 (2)](https://github.com/Prem-Kumar13122004/DBMS/assets/119291590/31e858d0-6a1e-4c57-a99d-a66500682a5c)
 
 ### 3) Alter the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+ALTER TABLE student ADD department VARCHAR(50);
 ### OUTPUT:
+![dbms 2 (3)](https://github.com/Prem-Kumar13122004/DBMS/assets/119291590/9272d9ba-bbdc-4c2e-ae3a-a2722ed456f1)
 
 ### 4) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+ALTER TABLE student RENAME TO mystudent;
 
 
 ### OUTPUT:
+![dbms 2 (4)](https://github.com/Prem-Kumar13122004/DBMS/assets/119291590/cca5a03a-22ce-44b9-a688-cdd4ce49da31)
 
 ### 5) Delete the mystudent rows using truncate keyword
 
 ### SQL QUERY: 
-
+TRUNCATE TABLE mystudent;
 
 ### OUTPUT:
-### 4) Drop the mystudent table
+![dbms 2 (5)](https://github.com/Prem-Kumar13122004/DBMS/assets/119291590/0dae80d1-bd3e-481a-ac20-ed8ef676fc59)
+
+### 6) Drop the mystudent table
  
 ### SQL QUERY: 
-
+DROP TABLE mystudent;
 
 ### OUTPUT:
+![dbms 2 (6)](https://github.com/Prem-Kumar13122004/DBMS/assets/119291590/3c2287ec-ff00-41d1-8fc5-8e42262d04ee)
+
 
 
 
