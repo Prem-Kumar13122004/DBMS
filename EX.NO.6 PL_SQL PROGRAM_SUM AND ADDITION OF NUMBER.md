@@ -10,9 +10,18 @@
 5. End the begin section.
 
 ### Program:
-
+```
+declare
+a number :=10;
+b number :=20;
+begin
+dbms_output.put_line(a+b);
+dbms_output.put_line(a-b);
+end;
+```
 
 ### Output:
+![281376406-4597d0ae-5bc8-4d7d-923c-3a373e690fe8](https://github.com/Prem-Kumar13122004/DBMS/assets/119291590/5d6ae7c0-9400-4105-8a0c-2db5188d4ca1)
 
 
 ### Result:
