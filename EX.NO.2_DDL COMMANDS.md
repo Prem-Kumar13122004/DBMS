@@ -26,6 +26,7 @@ create database studentdb
 ### SQL QUERY:
 
 ### OUTPUT:
+![281321848-67c7b621-4f7a-4e8b-b315-f2e1eec02587](https://github.com/Prem-Kumar13122004/DBMS/assets/119291590/ec13f32c-47b7-4fe8-8e90-43d8a22040e7)
 
 ### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
